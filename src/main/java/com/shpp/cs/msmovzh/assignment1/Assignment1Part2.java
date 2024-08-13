@@ -1,6 +1,6 @@
 package com.shpp.cs.msmovzh.assignment1;
 
-public class Assignment1Part2 extends SuperKarel{
+public class Assignment1Part2 extends SuperKarel {
     public void run() throws Exception {
         fixTheColumn();
         goToFloor();
