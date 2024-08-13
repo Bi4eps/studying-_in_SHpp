@@ -15,6 +15,7 @@ public class Assignment1Part1 extends SuperKarel {
         }
     }
 
+    //Returns Karel to its starting position.
     private void goBack() throws Exception {
         turnAround();
 
