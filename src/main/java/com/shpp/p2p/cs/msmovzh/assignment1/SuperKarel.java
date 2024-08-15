@@ -1,4 +1,4 @@
-package com.shpp.cs.msmovzh.assignment1;
+package com.shpp.p2p.cs.msmovzh.assignment1;
 
 import com.shpp.karel.KarelTheRobot;
 

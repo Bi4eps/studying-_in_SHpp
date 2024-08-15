@@ -1,4 +1,4 @@
-package com.shpp.cs.msmovzh.assignment1;
+package com.shpp.p2p.cs.msmovzh.assignment1;
 
 public class Assignment1Part3 extends SuperKarel {
     public void run() throws Exception {
@@ -30,18 +30,5 @@ public class Assignment1Part3 extends SuperKarel {
         turnAround();
         move();
         putBeeper();
-
-        /*if (beepersPresent()) {
-            pickBeeper();
-        }
-        move();
-
-        if (noBeepersPresent()) {
-            while (noBeepersPresent()) {
-                while (frontIsClear()) {
-                    move();
-                }
-            }
-        }*/
     }
 }

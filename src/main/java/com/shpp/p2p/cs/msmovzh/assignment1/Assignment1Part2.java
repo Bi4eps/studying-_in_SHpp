@@ -1,4 +1,4 @@
-package com.shpp.cs.msmovzh.assignment1;
+package com.shpp.p2p.cs.msmovzh.assignment1;
 
 public class Assignment1Part2 extends SuperKarel {
     public void run() throws Exception {
