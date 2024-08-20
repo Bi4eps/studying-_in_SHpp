@@ -49,8 +49,8 @@ public class Assignment2Part4 extends WindowProgram {
     /**
      * Draw rectangle
      * @param color of rectangle
-     * @param x - the width of the upper left corner of the rectangle
-     * @param y - the height of the upper left corner of the rectangle
+     * @param x the width of the upper left corner of the rectangle
+     * @param y the height of the upper left corner of the rectangle
      * @param width of rectangle
      * @param height of rectangle
      */

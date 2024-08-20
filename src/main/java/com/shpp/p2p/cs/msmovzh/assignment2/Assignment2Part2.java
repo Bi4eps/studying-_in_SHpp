@@ -10,11 +10,16 @@ import java.awt.*;
  * Draw 4 black circles in the corners and a white square in the center
  */
 public class Assignment2Part2 extends WindowProgram {
+    // application size
     private static final int APPLICATION_WIDTH = 600;
     private static final int APPLICATION_HEIGHT = 600;
+
+    // Constants for circles
     private static final int CIRCLES_DIAMETER = 200;
-    private static final int SQUARE_DIAMETER = 400;
     private static final Color CIRCLES_COLOR = Color.BLACK;
+
+    // Constants for square
+    private static final int SQUARE_DIAMETER = 400;
     private static final Color SQUARE_COLOR = Color.WHITE;
 
     /**
@@ -51,8 +56,8 @@ public class Assignment2Part2 extends WindowProgram {
 
     /**
      * Draw black circle
-     * @param x - the width of the upper left corner of the circle
-     * @param y - the height of the upper left corner of the circle
+     * @param x the width of the upper left corner of the circle
+     * @param y the height of the upper left corner of the circle
      */
     private void printCircle(int x, int y) {
         GOval circle = new GOval(x, y, CIRCLES_DIAMETER, CIRCLES_DIAMETER);
