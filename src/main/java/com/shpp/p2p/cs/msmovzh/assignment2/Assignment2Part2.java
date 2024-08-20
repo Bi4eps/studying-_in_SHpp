@@ -30,10 +30,10 @@ public class Assignment2Part2 extends WindowProgram {
      * Draw 4 black circles in the corners
      */
     private void printCircles() {
-        drawCircle(0, 0);
-        drawCircle(getWidth() - CIRCLES_DIAMETER, 0);
-        drawCircle(0, getHeight() - CIRCLES_DIAMETER);
-        drawCircle(getWidth() - CIRCLES_DIAMETER, getHeight() - CIRCLES_DIAMETER);
+        printCircle(0, 0);
+        printCircle(getWidth() - CIRCLES_DIAMETER, 0);
+        printCircle(0, getHeight() - CIRCLES_DIAMETER);
+        printCircle(getWidth() - CIRCLES_DIAMETER, getHeight() - CIRCLES_DIAMETER);
     }
 
     /**
@@ -54,7 +54,7 @@ public class Assignment2Part2 extends WindowProgram {
      * @param x - the width of the upper left corner of the circle
      * @param y - the height of the upper left corner of the circle
      */
-    private void drawCircle(int x, int y) {
+    private void printCircle(int x, int y) {
         GOval circle = new GOval(x, y, CIRCLES_DIAMETER, CIRCLES_DIAMETER);
         circle.setColor(CIRCLES_COLOR);
         circle.setFilled(true);

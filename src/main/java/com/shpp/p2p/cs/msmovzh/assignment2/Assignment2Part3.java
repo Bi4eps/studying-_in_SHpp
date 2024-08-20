@@ -62,10 +62,10 @@ public class Assignment2Part3 extends WindowProgram {
     private void drawPawprint(double x, double y) {
         setSize(APPLICATION_WIDTH, APPLICATION_HEIGHT);
 
-        drawOval(x + FIRST_TOE_OFFSET_X, y + FIRST_TOE_OFFSET_Y, TOE_WIDTH, TOE_HEIGHT);
-        drawOval(x + SECOND_TOE_OFFSET_X, y + SECOND_TOE_OFFSET_Y, TOE_WIDTH, TOE_HEIGHT);
-        drawOval(x + THIRD_TOE_OFFSET_X, y + THIRD_TOE_OFFSET_Y, TOE_WIDTH, TOE_HEIGHT);
-        drawOval(x + HEEL_OFFSET_X, y + HEEL_OFFSET_Y, HEEL_WIDTH, HEEL_HEIGHT);
+        printOval(x + FIRST_TOE_OFFSET_X, y + FIRST_TOE_OFFSET_Y, TOE_WIDTH, TOE_HEIGHT);
+        printOval(x + SECOND_TOE_OFFSET_X, y + SECOND_TOE_OFFSET_Y, TOE_WIDTH, TOE_HEIGHT);
+        printOval(x + THIRD_TOE_OFFSET_X, y + THIRD_TOE_OFFSET_Y, TOE_WIDTH, TOE_HEIGHT);
+        printOval(x + HEEL_OFFSET_X, y + HEEL_OFFSET_Y, HEEL_WIDTH, HEEL_HEIGHT);
     }
 
     /**
@@ -75,7 +75,7 @@ public class Assignment2Part3 extends WindowProgram {
      * @param width of the oval
      * @param height of the oval
      */
-    private void drawOval(double x, double y, double width, double height) {
+    private void printOval(double x, double y, double width, double height) {
         GOval oval = new GOval(x, y, width, height);
         oval.setColor(Color.BLACK);
         oval.setFilled(true);
